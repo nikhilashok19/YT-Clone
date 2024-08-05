@@ -103,8 +103,15 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: background-color 0.2s;
 }
 
+.voice-search-button:hover{
+  background-color: rgb(240, 240, 240);
+}
+.voice-search-button:active{
+  background-color: rgb(235, 234, 234);
+}
 .voice-search-icon {
   height: 24px;
 }
